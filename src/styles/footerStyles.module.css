@@ -1,0 +1,48 @@
+.footerContainer {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: rgb(156, 163, 175);
+    margin: 6rem 2rem 2rem 2rem;
+}
+
+.leftContainer {
+    width: 40%;
+}
+
+.headerText {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: black;
+}
+
+.middleContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li, .info > div, .companyText {
+    margin-bottom: 0.5rem;
+    font-size: 0.75em;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+

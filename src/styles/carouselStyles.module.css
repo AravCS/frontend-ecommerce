@@ -1,0 +1,50 @@
+.imgCarousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    gap: 1em;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.headerText {
+    font-size: 3em;
+}
+
+.imgCarousel button {
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.imgCarousel button:hover {
+    background: black;
+    color: white;
+    transform: scale(1.1);
+}
+
+.imgCarousel button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.forwardBtn {
+    margin-left: 1em;
+}
+
+.backwardBtn {
+    margin-right: 1em;
+}

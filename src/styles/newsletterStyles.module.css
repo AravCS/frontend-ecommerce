@@ -1,0 +1,44 @@
+.newsletterContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5em;
+}
+
+.headerText {
+    font-size: 2em;
+    margin-bottom: 12px;
+}
+
+.secondaryText {
+    margin-bottom: 12px;
+    color: rgb(156, 163, 175);
+}
+
+.newsletterForm {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.formControl {
+    flex: 1;
+    padding: 0.75rem;
+    border-radius: 8px;
+    width: 16em;
+    border: 1px solid #ccc;
+}
+
+.submitBtn {
+    padding: 0.75rem 1.25rem;
+    border-radius: 8px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.submitBtn:hover {
+    background: #333;
+    transform: translateY(-2px);
+}

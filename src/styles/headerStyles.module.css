@@ -1,0 +1,32 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8em;
+    padding-right: 8em;
+    padding-top: 1em;
+}
+
+.middleContainer {
+    display: flex;
+    gap: 2em;
+}
+
+.navBar {
+    display: flex;
+}
+
+.navLink {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.navLink:hover {
+    color: #2a9d8f;
+}
+
+.brandName {
+    font-size: 2em;
+    font-weight: bold;
+}

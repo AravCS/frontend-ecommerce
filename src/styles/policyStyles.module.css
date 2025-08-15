@@ -1,0 +1,25 @@
+.policies {
+    margin-top: 5em;
+    gap: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.policyContainer {
+    text-align: center;
+}
+
+.policyImg {
+    margin-bottom: 1em;
+    width: 3em;
+}
+
+.primaryText {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.secondaryText {
+    color: rgb(156, 163, 175);
+}
