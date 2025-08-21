@@ -1,7 +1,5 @@
 import Header from "./Header.jsx"
 import App from "../App.jsx"
-import Products from "./Products.jsx";
-import Footer from "./Footer.jsx";
 
 const router = [
     {
@@ -9,8 +7,6 @@ const router = [
         element: <App/>
     },
     {
-        path: "/products",
-        element: <Products/>
     }
 ]
 
