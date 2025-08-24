@@ -10,6 +10,7 @@ const router = [
     {
         path: "/products",
         element: <Products />
+
     }
 ]
 

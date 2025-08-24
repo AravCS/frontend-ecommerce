@@ -1,0 +1,69 @@
+.productsPageContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 6em 8em 2em;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.headerText {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.filterDropdown {
+    flex: 0 0 200px; /* keeps filter section a fixed width */
+}
+
+.radioGroup {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 1em;
+    border-radius: 8px;
+    background-color: #fafafa;
+}
+
+.radioGroup label {
+    margin-bottom: 0.5em;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.radioGroup input[type="radio"] {
+    margin-right: 0.5em;
+    accent-color: #2a9d8f;
+}
+
+.categoriesText {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.itemsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5em;
+    flex: 1;
+}
+
+.itemsContainer > *:hover {
+    transform: translateY(-4px);
+    transition: transform 0.2s;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .productsPageContainer {
+        flex-direction: column;
+    }
+
+    .itemsContainer {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    .filterDropdown {
+        width: 100%;
+    }
+}
