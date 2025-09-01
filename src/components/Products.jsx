@@ -83,7 +83,7 @@ export default function Products() {
                     {loading && <p>Loading . . .</p>}
                     {error && <p>{error}</p>}
                     {!loading && !error && filteredData.map(item => (
-                        <Card key={item.id} item={item} />
+                        <Card key={item.id} item={item}/>
                     ))}
                 </div>
             </section>

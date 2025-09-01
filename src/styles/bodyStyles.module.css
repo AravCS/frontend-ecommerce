@@ -41,3 +41,47 @@
     margin-right: 6px; /* space between line and text */
     vertical-align: middle;
 }
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .bodySection {
+        flex-direction: column;
+        margin: 1em 4em 3em;
+        align-items: center;
+    }
+
+    .textContainer {
+        width: 90%;
+    }
+
+    .text2 {
+        font-size: 2.5em;
+    }
+
+    .img {
+        width: 30em;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .bodySection {
+        margin: 1em 1.5em 2em;
+    }
+
+    .text2 {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .text1::before,
+    .text3::after {
+        width: 25px; /* shorter lines for small screens */
+    }
+
+    .img {
+        width: 90%; /* scale image for mobile */
+        height: auto;
+        margin-top: 1em;
+    }
+}

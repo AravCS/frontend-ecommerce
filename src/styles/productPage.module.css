@@ -1,0 +1,126 @@
+.productInfoContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 8em;
+}
+
+.productImg {
+    width: 24em;
+    height: auto;
+    padding: 1em;
+    background: linear-gradient(135deg, #f0f0f0, #d9d9d9);
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.productInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.productTitle {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2c3e50;
+}
+
+.productRating {
+    font-size: 1rem;
+    color: #ff9900;
+    font-weight: 600;
+}
+
+.productPrice {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #e74c3c;
+}
+
+.productDescription {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.sizeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.sizeBtn {
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+}
+
+.sizeBtn:hover {
+    background-color: #2c3e50;
+    color: #fff;
+    border-color: #2c3e50;
+}
+
+.policyContainer {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.policyItem {
+    font-size: 0.95rem;
+    color: #555;
+    padding-left: 0.5rem;
+    position: relative;
+}
+
+.policyItem::before {
+    content: "•";
+    color: #2c3e50;
+    position: absolute;
+    left: 0;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartBtn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #22c55e, #16a34a);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: all 0.2s ease;
+}
+
+.cartBtn:hover {
+    background: linear-gradient(135deg, #16a34a, #15803d);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+}
+
+.cartBtn:active {
+    transform: scale(0.95);
+}
+

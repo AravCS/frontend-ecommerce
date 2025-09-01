@@ -30,3 +30,51 @@
     font-size: 2em;
     font-weight: bold;
 }
+
+/* -------- MEDIA QUERIES -------- */
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .headerContainer {
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+
+    .middleContainer {
+        gap: 1.5em;
+    }
+
+    .brandName {
+        font-size: 1.8em;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .headerContainer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+
+    .middleContainer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+        width: 100%;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    .brandName {
+        font-size: 1.5em;
+        margin-bottom: 0.5em;
+    }
+
+    .navLink {
+        font-size: 1em;
+    }
+}
