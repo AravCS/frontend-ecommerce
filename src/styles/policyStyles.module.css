@@ -23,3 +23,14 @@
 .secondaryText {
     color: rgb(156, 163, 175);
 }
+
+/** for mobile screens */
+@media screen and (max-width: 768px) {
+    .policies {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        justify-content: center;
+        align-items: center;
+    }
+}

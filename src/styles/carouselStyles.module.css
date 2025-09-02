@@ -48,3 +48,19 @@
 .backwardBtn {
     margin-right: 1em;
 }
+
+/** apply when viewport <= max-width */
+
+@media screen and (max-width: 1345px) {
+    .text {
+        text-align: center;
+
+    }
+
+    .imgCarousel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
