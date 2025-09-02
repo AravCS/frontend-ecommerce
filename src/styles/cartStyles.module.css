@@ -1,10 +1,17 @@
 .cartContainer {
     display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.cartWrapper {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 1em;
     padding: 1em;
-    max-width: 700px;
-    margin: 0 auto;
+    max-width: 600px;
 }
 
 .emptyText {
@@ -25,12 +32,9 @@
 
 .cartImg {
     width: 60px;
-    height: auto;
-    object-fit: contain;
 }
 
 .cartInfo {
-    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,6 +79,7 @@
 .cartTotal {
     margin-top: 1.5em;
     display: flex;
+    gap: 1em;
     justify-content: space-between;
     align-items: center;
 }
@@ -93,4 +98,11 @@
 
 .checkoutBtn:hover {
     background-color: #1b343f;
+}
+
+@media (max-width: 750px) {
+    .cartItem {
+        display: flex;
+        flex-direction: column;
+    }
 }

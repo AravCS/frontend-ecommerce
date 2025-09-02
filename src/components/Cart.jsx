@@ -34,34 +34,36 @@ export default function Cart() {
     return (
         <>
             <Header/>
-        <section className={styles.cartContainer}>
-            {items.length === 0 ? (
-                <p className={styles.emptyText}>Your cart is empty</p>
-            ) : (
-                <>
-                    {items.map((item) => (
-                        <div key={item.id} className={styles.cartItem}>
-                            <img src={item.image} alt={item.title} className={styles.cartImg} />
-                            <div className={styles.cartInfo}>
-                                <h3 className={styles.itemTitle}>{item.title}</h3>
-                                <p className={styles.itemPrice}>Price: ${item.price}</p>
-                                <p className={styles.itemSubtotal}>Subtotal: ${(item.price * item.quantity).toFixed(2)}</p>
-                                <div className={styles.quantityContainer}>
-                                    <button className={styles.qtyBtn} onClick={() => handleDecrease(item.id)}>-</button>
-                                    <span>{item.quantity}</span>
-                                    <button className={styles.qtyBtn} onClick={() => handleIncrease(item.id)}>+</button>
+            <section className={styles.cartContainer}>
+                <div className={styles.cartWrapper}>
+                    {items.length === 0 ? (
+                        <p className={styles.emptyText}>Your cart is empty</p>
+                    ) : (
+                        <>
+                            {items.map((item) => (
+                                <div key={item.id} className={styles.cartItem}>
+                                    <img src={item.image} alt={item.title} className={styles.cartImg} />
+                                    <div className={styles.cartInfo}>
+                                        <h3 className={styles.itemTitle}>{item.title}</h3>
+                                        <p className={styles.itemPrice}>Price: ${item.price}</p>
+                                        <p className={styles.itemSubtotal}>Subtotal: ${(item.price * item.quantity).toFixed(2)}</p>
+                                        <div className={styles.quantityContainer}>
+                                            <button className={styles.qtyBtn} onClick={() => handleDecrease(item.id)}>-</button>
+                                            <span>{item.quantity}</span>
+                                            <button className={styles.qtyBtn} onClick={() => handleIncrease(item.id)}>+</button>
+                                        </div>
+                                    </div>
                                 </div>
+                            ))}
+                            <div className={styles.cartTotal}>
+                                <h2>Total: ${total.toFixed(2)}</h2>
+                                <button className={styles.checkoutBtn}>Checkout</button>
                             </div>
-                        </div>
-                    ))}
-                    <div className={styles.cartTotal}>
-                        <h2>Total: ${total.toFixed(2)}</h2>
-                        <button className={styles.checkoutBtn}>Checkout</button>
-                    </div>
-                </>
-            )}
-        </section>
-        <Footer/>
+                        </>
+                    )}
+                </div>
+            </section>
+            <Footer/>
         </>
     );
 }

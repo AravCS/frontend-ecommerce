@@ -45,7 +45,7 @@ a:hover {
     text-decoration: underline;
 }
 
-@media screen and (max-width: 750px) {
+@media (max-width: 750px) {
     .footerContainer {
         display: flex;
         flex-direction: column;
