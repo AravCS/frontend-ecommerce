@@ -52,7 +52,8 @@ a:hover {
         align-items: center;
         justify-content: center;
         gap: 1rem;
-        padding: 3em;
+        padding: 2em;
+        margin-top: 2em;
         border-top: 1px solid rgb(156, 163, 175);
     }
 
