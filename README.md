@@ -26,8 +26,6 @@ https://frontend-ecommerce-tau.vercel.app/
   <li><strong>Modular Design with Components</strong> 🧩: Breaking the UI into reusable pieces</li>
   <li><strong>React Router (Client-Side Rendering)</strong> 🛣️:
     <ul>
-      <li>Enables navigation between pages <strong>without full page reloads</strong></li>
-      <li>The browser stays on the <strong>same HTML page</strong>, and React dynamically updates the view</li>
       <li>Used in this project for <strong>homepage, products page, individual product pages, and cart page</strong></li>
     </ul>
   </li>
