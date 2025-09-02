@@ -30,7 +30,7 @@
     display: block;
 }
 
-/* lines before/after text */
+
 .text1::before,
 .text3::after {
     content: "";
@@ -46,27 +46,24 @@
 @media (max-width: 1024px) {
     .bodySection {
         flex-direction: column;
-        margin: 1em 4em 3em;
         align-items: center;
+        margin-top: 3em;
     }
 
     .textContainer {
-        width: 90%;
-    }
-
-    .text2 {
-        font-size: 2.5em;
+        padding: 2em;
     }
 
     .img {
-        width: 30em;
+        width: 100%;
     }
 }
+
 
 /* Mobile */
 @media (max-width: 768px) {
     .bodySection {
-        margin: 1em 1.5em 2em;
+        margin: 2em 2em 2em;
     }
 
     .text2 {
@@ -80,8 +77,6 @@
     }
 
     .img {
-        width: 90%; /* scale image for mobile */
-        height: auto;
-        margin-top: 1em;
+        width: 100%;
     }
 }
