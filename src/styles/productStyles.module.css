@@ -57,6 +57,8 @@
 @media (max-width: 768px) {
     .productsPageContainer {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .itemsContainer {

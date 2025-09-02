@@ -24,7 +24,6 @@ describe("Testing for body component", () => {
         </BrowserRouter>)
 
         // should have some type of img on the screen
-
         const image1 = screen.getByRole("img")
         expect(image1).toBeInTheDocument()
     })

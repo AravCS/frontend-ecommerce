@@ -6,14 +6,27 @@ export const CartContext = createContext();
 export const CartProvider = ({ children }) => {
     const [cart, setCart] = useState([]);
 
-    const addToCart = (item) => setCart((prev) => [...prev, item]);
-    const removeFromCart = (id) =>
-        setCart((prev) => prev.filter((item) => item.id !== id));
-    const clearCart = () => setCart([]);
+    // Add one item
+    const addToCart = (item) => {
+        setCart([...cart, item]);
+    };
+
+    // Remove one instance of item by id
+    const removeFromCart = (id) => {
+        setCart((prev) => {
+            const index = prev.findIndex((i) => i.id === id);
+            if (index === -1) return prev;
+            const newCart = [...prev];
+            newCart.splice(index, 1);
+            return newCart;
+        });
+    };
 
     return (
-        <CartContext.Provider value={{ cart, addToCart, removeFromCart, clearCart }}>
+        <CartContext.Provider value={{ cart, addToCart, removeFromCart }}>
             {children}
         </CartContext.Provider>
     );
 };
+
+export default CartContext;
