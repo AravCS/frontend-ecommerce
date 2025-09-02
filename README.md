@@ -1,14 +1,43 @@
-# React + Vite
+💻 What I Used
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React.js ⚛️
 
-Currently, two official plugins are available:
+Vitest 🧪
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+FakeStore API 🏬
 
-## Expanding the ESLint configuration
+CSS Modules 🎨
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🌟 Website Features
+
+Responsive and interactive design 📱💻
+
+Products page with filtering options 🔍
+
+Homepage with product slider and important info 🏠
+
+Ability to view individual products and add to cart 🛍️
+
+Dedicated cart page to view and manage your cart 🛒
+
+🛠 Concepts and Techniques
+
+React State & Props 🔄: Managing dynamic data and passing information between components
+
+Modular Design with Components 🧩: Breaking the UI into reusable pieces
+
+React Router 🛣️: Seamless navigation between pages
+
+React Unit Testing with Vitest ✅: Ensuring components work correctly
+
+CSS Modules & Responsive Design 📐:
+
+CSS Grid for structured layouts
+
+Flexbox for flexible alignment
+
+Media queries for phone and tablet responsiveness
+
+Modern & Minimal Design ✨: Clean, user-friendly interface
 # frontend-ecommerce
 https://frontend-ecommerce-tau.vercel.app/
