@@ -128,3 +128,19 @@
     transform: scale(0.95);
 }
 
+@media (max-width: 1150px) {
+    .productInfoContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5em;
+        padding: 0.5em;
+    }
+
+    .productImg {
+        width: 20em;
+    }
+}
+
+
