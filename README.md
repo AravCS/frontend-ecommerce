@@ -6,7 +6,7 @@
   <li><strong>Vitest</strong> 🧪</li>
   <li><strong>FakeStore API</strong> 🏬</li>
   <li><strong>CSS Modules</strong> 🎨</li>
-  <li><strong>Vercel</strong> 🚀: Project deployed online for live access</li>
+  <li><strong>Deployed on Vercel</strong> 🚀: </li>
 </ul>
 
 <h2>🌟 Website Features</h2>
