@@ -1,43 +1,42 @@
-💻 What I Used
+<h1>🛒 React.js </h1>
 
-React.js ⚛️
+<h2>💻 What I Used</h2>
+<ul>
+  <li><strong>React.js</strong> ⚛️</li>
+  <li><strong>Vitest</strong> 🧪</li>
+  <li><strong>FakeStore API</strong> 🏬</li>
+  <li><strong>CSS Modules</strong> 🎨</li>
+  <li><strong>Vercel</strong> 🚀: Project deployed online for live access</li>
+</ul>
 
-Vitest 🧪
+<h2>🌟 Website Features</h2>
+<ul>
+  <li>Responsive and interactive design 📱💻</li>
+  <li>Products page with filtering options 🔍</li>
+  <li>Homepage with product slider and important info 🏠</li>
+  <li>Ability to view individual products and add to cart 🛍️</li>
+  <li>Dedicated cart page to view and manage your cart 🛒</li>
+</ul>
 
-FakeStore API 🏬
+<h2>🛠 Concepts and Techniques</h2>
+<ul>
+  <li><strong>React State & Props</strong> 🔄: Managing dynamic data and passing information between components</li>
+  <li><strong>Modular Design with Components</strong> 🧩: Breaking the UI into reusable pieces</li>
+  <li><strong>React Router (Client-Side Rendering)</strong> 🛣️:
+    <ul>
+      <li>Enables navigation between pages <strong>without full page reloads</strong></li>
+      <li>The browser stays on the <strong>same HTML page</strong>, and React dynamically updates the view</li>
+      <li>Used in this project for <strong>homepage, products page, individual product pages, and cart page</strong></li>
+    </ul>
+  </li>
+  <li><strong>React Unit Testing with Vitest</strong> ✅: Ensuring components work correctly</li>
+  <li><strong>CSS Modules & Responsive Design</strong> 📐:
+    <ul>
+      <li>CSS Grid for structured layouts</li>
+      <li>Flexbox for flexible alignment</li>
+      <li>Media queries for phone and tablet responsiveness</li>
+    </ul>
+  </li>
+  <li><strong>Modern & Minimal Design</strong> ✨: Clean, user-friendly interface</li>
+</ul>
 
-CSS Modules 🎨
-
-🌟 Website Features
-
-Responsive and interactive design 📱💻
-
-Products page with filtering options 🔍
-
-Homepage with product slider and important info 🏠
-
-Ability to view individual products and add to cart 🛍️
-
-Dedicated cart page to view and manage your cart 🛒
-
-🛠 Concepts and Techniques
-
-React State & Props 🔄: Managing dynamic data and passing information between components
-
-Modular Design with Components 🧩: Breaking the UI into reusable pieces
-
-React Router 🛣️: Seamless navigation between pages
-
-React Unit Testing with Vitest ✅: Ensuring components work correctly
-
-CSS Modules & Responsive Design 📐:
-
-CSS Grid for structured layouts
-
-Flexbox for flexible alignment
-
-Media queries for phone and tablet responsiveness
-
-Modern & Minimal Design ✨: Clean, user-friendly interface
-# frontend-ecommerce
-https://frontend-ecommerce-tau.vercel.app/
