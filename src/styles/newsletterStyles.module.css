@@ -42,3 +42,11 @@
     background: #333;
     transform: translateY(-2px);
 }
+
+@media screen and (max-width: 768px) {
+    .newsletterContainer {
+        text-align: center;
+        padding: 2em;
+        margin-top: 3em;
+    }
+}
