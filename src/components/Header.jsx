@@ -12,7 +12,6 @@ export default function Header() {
             <nav className={styles.middleContainer}>
                 <Link to="/" className={styles.navLink}> Home </Link>
                 <Link to="/products" className={styles.navLink}> Products </Link>
-                <Link to="/about" className={styles.navLink}> About </Link>
             </nav>
 
             <nav className={styles.endContainer}>
