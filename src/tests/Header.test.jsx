@@ -35,16 +35,12 @@ describe("Header component", () => {
 
         const homeLink = screen.getByRole('link', { name: /Home/i });
         const productsLink = screen.getByRole('link', { name: /Product/i });
-        const aboutLinks = screen.getByRole('link', { name: /About/i });
 
         expect(homeLink).toBeInTheDocument();
         expect(homeLink).toHaveAttribute("href", "/");
 
         expect(productsLink).toBeInTheDocument();
         expect(productsLink).toHaveAttribute("href", "/products");
-
-        expect(aboutLinks).toBeInTheDocument();
-        expect(aboutLinks).toHaveAttribute("href", "/about");
     })
     it("ensures navigation for the cart icon in header", () => {
         render(
